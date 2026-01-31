@@ -1,0 +1,10 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "exportx-upload",
+  "main": "adaptors/worker.ts",
+  "compatibility_date": "2025-06-25",
+  "vars": {
+    "BUCKET_CONFIGS": "[   {     \"id\": \"1\",     \"name\": \"Vitamingo Assets\",     \"provider\": \"AWS_S3\",     \"bucketName\": \"vitamingo-assets\",     \"accessKeyId\": \"AKIA2YR3X6JPUXAIHGPY\",     \"secretAccessKey\": \"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\",     \"region\": \"eu-west-2\",     \"endpoint\": \"https://s3.eu-west-2.amazonaws.com\",     \"bindingName\": \"MY_BUCKET\",     \"allowedPaths\": [       \"images\"     ],     \"idWhitelist\": [       \"your_user_id\",       \"wbl04thy4utz\"     ]   } ]",
+    "AUTH_SECRET_KEY": "OePDyQTzuUNWyq8VTq3KX9CQBSC7kmBW"
+  }
+}
